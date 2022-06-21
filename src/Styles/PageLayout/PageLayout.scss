@@ -1,0 +1,12 @@
+@import "../../Variables/Variables.scss";
+
+.pageLayout {
+  width: 100%;
+  background-color: rgba(225, 223, 228, 1);
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: $bodyFont;
+}

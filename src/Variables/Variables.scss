@@ -1,0 +1,22 @@
+//Colors
+$blackColor: rgb(24, 24, 24);
+$greyColor: rgb(87, 87, 87);
+$redColor: rgb(175, 2, 2);
+$whiteColor: rgb(232, 232, 232);
+
+//Fonts
+$titleFont: Arial, Helvetica, sans-serif;
+$bodyFont: "Roboto", sans-serif;
+
+//Functions
+
+@mixin buttonStyle($backgroundColor, $fontColor, $fontSize) {
+  width: 100px;
+  height: 40px;
+  background-color: $backgroundColor;
+  border: none;
+  border-radius: 6px;
+  color: $fontColor;
+  font-size: $fontSize;
+  font-family: $bodyFont;
+}

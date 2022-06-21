@@ -1,0 +1,16 @@
+@import "../../Variables/Variables.scss";
+
+.navbar a {
+  color: $greyColor;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: $bodyFont;
+  font-weight: 300;
+  margin: 30px;
+  padding-top: 5px;
+  border-top: 1px solid rgb(180, 180, 180);
+}
+
+.navbar .links {
+  margin-right: 50px;
+}
