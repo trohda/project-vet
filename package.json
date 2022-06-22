@@ -34,20 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "file-loader": "^6.2.0"
-  },
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/trohda/project-vet.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/trohda/project-vet/issues"
-  },
-  "homepage": "https://github.com/trohda/project-vet#readme"
+  }
 }

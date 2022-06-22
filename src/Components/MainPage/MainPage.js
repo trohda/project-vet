@@ -4,7 +4,7 @@ import Dna from "../Atoms/Dna";
 const MainPage = () => {
   return (
     <div className="mainPage">
-      <Dna />
+      {/* <Dna /> */}
       <h1>Weterynarz Przymorze - Kasia Grodź</h1>
 
       <p>Witamy i zapraszamy do gabinetu</p>
