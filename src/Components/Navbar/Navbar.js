@@ -17,9 +17,9 @@ const Navbar = () => {
   return (
     <navbar>
       <div className="navMenu">
-        <a href="/home">Strona Główna</a>
-        <a href="/onas">O nas</a>
-        <a href="/kontakt">Kontakt</a>
+        <a href="/#">Strona Główna</a>
+        <a href="/#">O nas</a>
+        <a href="/#">Kontakt</a>
       </div>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
@@ -27,13 +27,13 @@ const Navbar = () => {
         <div className="line3"></div>
       </div>
       <div className="navMobileMenu">
-        <a href="/home" className={`homeLink ${mobileMenuActive}`}>
+        <a href="/" className={`homeLink ${mobileMenuActive}`}>
           Strona Główna
         </a>
-        <a href="/about" className={`aboutLink ${mobileMenuActive}`}>
+        <a href="/#" className={`aboutLink ${mobileMenuActive}`}>
           O nas
         </a>
-        <a href="/contact" className={`contactLink ${mobileMenuActive}`}>
+        <a href="/#" className={`contactLink ${mobileMenuActive}`}>
           Kontakt
         </a>
       </div>
