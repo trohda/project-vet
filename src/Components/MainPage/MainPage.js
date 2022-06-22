@@ -1,39 +1,9 @@
 import "../../Styles/MainPage/MainPage.css";
+import Dna from "../Atoms/Dna";
 const MainPage = () => {
   return (
     <div className="mainPage">
-      <div id="dna">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+      <Dna />
       <h1>Weterynarz Przymorze</h1>
       <p>Witamy i zapraszamy do gabinetu</p>
     </div>

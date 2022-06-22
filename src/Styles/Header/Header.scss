@@ -7,4 +7,23 @@ header {
   align-items: center;
   padding: 40px;
   box-sizing: border-box;
+  img {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  header {
+    img {
+      width: 280px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    img {
+      width: 220px;
+    }
+  }
 }
