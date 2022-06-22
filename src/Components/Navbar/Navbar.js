@@ -15,7 +15,7 @@ const Navbar = () => {
     } else setIcon("navToggler");
   };
   return (
-    <navbar>
+    <nav>
       <div className="navMenu">
         <a href="/#">Strona Główna</a>
         <a href="/#">O nas</a>
@@ -37,7 +37,7 @@ const Navbar = () => {
           Kontakt
         </a>
       </div>
-    </navbar>
+    </nav>
   );
 };
 

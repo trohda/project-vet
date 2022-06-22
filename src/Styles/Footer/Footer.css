@@ -1,13 +1,35 @@
 .footer {
   width: 100%;
   height: 130px;
+  padding: 25px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  box-sizing: border-box;
 }
 .footer a {
-  color: hsl(0deg, 0%, 34%);
+  color: rgb(87, 87, 87);
   font-weight: 300;
   text-decoration: none;
+}
+.footer .googleMapsLink,
+.footer .faceBookLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.footer h3 {
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(175, 2, 2);
+  margin: 5px 0;
+}
+.footer p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 5px;
 }/*# sourceMappingURL=Footer.css.map */
