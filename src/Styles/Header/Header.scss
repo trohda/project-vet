@@ -27,3 +27,11 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: 680px) {
+  header {
+    img {
+      width: 180px;
+    }
+  }
+}

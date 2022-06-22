@@ -17,23 +17,65 @@
   justify-content: center;
   align-items: center;
   border: 1px solid $greyColor;
-  border-radius: 20px;
+  border-radius: 28px;
   background-color: white;
   width: 40px;
   height: 40px;
   cursor: pointer;
+  position: fixed;
+  top: 40px;
+  right: 40px;
 }
 
 .navToggler div {
-  width: 20px;
+  width: 23px;
   border-top: 2px solid $greyColor;
   margin: 2px;
+  transition: 0.3s ease-in;
+}
+
+.navMobileMenu a {
+  color: $greyColor;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: $bodyFont;
+  font-weight: 300;
+}
+
+.homeLink {
+  position: fixed;
+  top: 30px;
+  right: 110px;
+  transform: translateX(200%);
+  transition: 0.5s ease-in;
+}
+.aboutLink {
+  position: fixed;
+  top: 70px;
+  right: 100px;
+  transform: translateX(300%);
+  transition: 0.5s ease-in;
+}
+.contactLink {
+  position: fixed;
+  top: 110px;
+  right: 70px;
+  transform: translateX(200%);
+  transition: 0.5s ease-in;
+}
+
+.navMobileMenu {
+  display: none;
+}
+
+.activeMobileMenu {
+  transform: translateX(0%);
 }
 
 @media only screen and (max-width: 900px) {
   .navMenu a {
     margin: 18px;
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -45,4 +87,18 @@
   .navToggler {
     display: flex;
   }
+
+  .navMobileMenu {
+    display: block;
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-3px, -5px);
 }
