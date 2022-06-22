@@ -93,6 +93,37 @@
   }
 }
 
+@media only screen and (max-width: 500px) {
+  .navToggler {
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    top: 18px;
+    right: 18px;
+  }
+
+  .navToggler div {
+    width: 15px;
+  }
+
+  .navMobileMenu a {
+    font-size: 15px;
+  }
+
+  .homeLink {
+    top: 15px;
+    right: 67px;
+  }
+  .aboutLink {
+    top: 40px;
+    right: 60px;
+  }
+  .contactLink {
+    top: 65px;
+    right: 30px;
+  }
+}
+
 .toggle .line1 {
   transform: rotate(-45deg) translate(-4px, 5px);
 }

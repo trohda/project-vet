@@ -24,4 +24,12 @@ header img {
   header img {
     width: 180px;
   }
+}
+@media only screen and (max-width: 440px) {
+  header {
+    padding: 24px 18px;
+  }
+  header img {
+    width: 130px;
+  }
 }/*# sourceMappingURL=Header.css.map */

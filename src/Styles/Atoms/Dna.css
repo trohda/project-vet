@@ -535,4 +535,11 @@
     left: -8%;
     transform: rotate(30deg) scale(0.4);
   }
+}
+@media only screen and (max-width: 440px) {
+  #dna {
+    top: 40%;
+    left: -35%;
+    transform: rotate(30deg) scale(0.3);
+  }
 }/*# sourceMappingURL=Dna.css.map */
