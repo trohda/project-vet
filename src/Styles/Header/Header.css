@@ -20,16 +20,11 @@ header img {
     width: 220px;
   }
 }
-@media only screen and (max-width: 680px) {
-  header img {
-    width: 180px;
-  }
-}
 @media only screen and (max-width: 440px) {
   header {
     padding: 24px 18px;
   }
   header img {
-    width: 130px;
+    width: 190px;
   }
 }/*# sourceMappingURL=Header.css.map */

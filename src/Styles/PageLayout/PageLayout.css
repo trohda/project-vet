@@ -1,7 +1,7 @@
 .pageLayout {
   width: 100%;
   background-color: rgb(225, 223, 228);
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
