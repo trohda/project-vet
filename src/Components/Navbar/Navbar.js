@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../../Styles/Navbar/Navbar.css";
 
 const Navbar = () => {
@@ -17,25 +18,62 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navMenu">
-        <a href="/#">Strona Główna</a>
-        <a href="/#">O nas</a>
-        <a href="/#">Kontakt</a>
+        <NavLink
+          to="/"
+          className={(info) => (info.isActive ? "navLinkActive" : "navLink")}
+        >
+          Strona główna
+        </NavLink>
+        <NavLink
+          to="/aboutus"
+          className={(info) => (info.isActive ? "navLinkActive" : "navLink")}
+        >
+          O Nas
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={(info) => (info.isActive ? "navLinkActive" : "navLink")}
+        >
+          Kontakt
+        </NavLink>
       </div>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
       </div>
+
       <div className="navMobileMenu">
-        <a href="/" className={`homeLink ${mobileMenuActive}`}>
-          Strona Główna
-        </a>
-        <a href="/#" className={`aboutLink ${mobileMenuActive}`}>
-          O nas
-        </a>
-        <a href="/#" className={`contactLink ${mobileMenuActive}`}>
+        <NavLink
+          to="/"
+          className={(info) =>
+            info.isActive
+              ? `homeLink ${mobileMenuActive} mobileLinkActive `
+              : `homeLink ${mobileMenuActive}`
+          }
+        >
+          Strona główna
+        </NavLink>
+        <NavLink
+          to="/aboutus"
+          className={(info) =>
+            info.isActive
+              ? `aboutLink ${mobileMenuActive} mobileLinkActive`
+              : `aboutLink ${mobileMenuActive}`
+          }
+        >
+          O Nas
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={(info) =>
+            info.isActive
+              ? `contactLink ${mobileMenuActive} mobileLinkActive`
+              : `contactLink ${mobileMenuActive}`
+          }
+        >
           Kontakt
-        </a>
+        </NavLink>
       </div>
     </nav>
   );

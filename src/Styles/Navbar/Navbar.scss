@@ -1,6 +1,6 @@
 @import "../../Variables/Variables.scss";
 
-.navMenu a {
+.navLink {
   color: $greyColor;
   font-size: 25px;
   text-decoration: none;
@@ -9,6 +9,25 @@
   margin: 30px;
   padding-top: 5px;
   border-top: 1px solid $redColor;
+  text-shadow: 0px 0px 0px rgba(135, 136, 146, 1);
+  transition: text-shadow 0.5s ease-in;
+}
+
+.navLink:hover {
+  text-shadow: 0px 0px 18px rgba(135, 136, 146, 1);
+}
+
+.navLinkActive {
+  color: $redColor;
+  font-size: 25px;
+  text-decoration: none;
+  font-family: $bodyFont;
+  font-weight: 300;
+  margin: 30px;
+  padding-top: 5px;
+  border-top: 1px solid $redColor;
+  text-shadow: 0px 0px 18px rgba(135, 136, 146, 1);
+  transition: text-shadow 0.5s ease-in;
 }
 
 .navToggler {
@@ -34,15 +53,12 @@
   transition: 0.3s ease-in;
 }
 
-.navMobileMenu a {
+.homeLink {
   color: $greyColor;
   font-size: 20px;
   text-decoration: none;
   font-family: $bodyFont;
   font-weight: 300;
-}
-
-.homeLink {
   position: fixed;
   top: 30px;
   right: 110px;
@@ -50,6 +66,11 @@
   transition: 0.5s ease-in;
 }
 .aboutLink {
+  color: $greyColor;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: $bodyFont;
+  font-weight: 300;
   position: fixed;
   top: 70px;
   right: 100px;
@@ -57,6 +78,11 @@
   transition: 0.5s ease-in;
 }
 .contactLink {
+  color: $greyColor;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: $bodyFont;
+  font-weight: 300;
   position: fixed;
   top: 110px;
   right: 70px;
@@ -70,6 +96,11 @@
 
 .activeMobileMenu {
   transform: translateX(0%);
+}
+
+.mobileLinkActive {
+  color: $redColor;
+  text-shadow: 0px 0px 18px rgb(97, 97, 97);
 }
 
 @media only screen and (max-width: 900px) {
