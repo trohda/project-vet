@@ -1,5 +1,5 @@
 import "../../Styles/Footer/Footer.css";
-import catOnLine from "../../Img/Pics/catOnLine.png";
+
 import GM from "../../Img/Icons/GM.svg";
 import FB from "../../Img/Icons/FB.svg";
 import Open from "../../Img/Icons/Open.svg";

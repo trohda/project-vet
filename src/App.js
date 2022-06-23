@@ -1,3 +1,4 @@
+import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import MainPage from "./Components/MainPage/MainPage";
@@ -7,7 +8,8 @@ function App() {
   return (
     <PageLayout>
       <Header />
-      <MainPage />
+      {/* <MainPage /> */}
+      <Contact />
       <Footer />
     </PageLayout>
   );
