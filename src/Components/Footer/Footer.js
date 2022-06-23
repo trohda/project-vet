@@ -12,6 +12,7 @@ const Footer = () => {
           className="faceBookLink"
           href="https://www.facebook.com/WeterynarzPrzymorze/"
           target="blank"
+          rel="noreferrer"
         >
           <img className="FBIcon" src={FB} alt="Facebook icon" />
           <div>
@@ -24,6 +25,8 @@ const Footer = () => {
         <a
           className="googleMapsLink"
           href="https://www.google.pl/maps/place/Przychodnia+Weterynaryjna+PRZYMORZE+Katarzyna+Grod%C5%BA/@54.4097488,18.5943476,17z/data=!3m1!4b1!4m5!3m4!1s0x46fd0be4f5452093:0xe013fcc8695bae94!8m2!3d54.4097457!4d18.5965363"
+          target="blank"
+          rel="noreferrer"
         >
           <img className="GMIcon" src={GM} alt="Google Maps Icon" />
 
