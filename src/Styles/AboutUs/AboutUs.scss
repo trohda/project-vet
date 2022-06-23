@@ -4,15 +4,22 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  padding: 45px;
+
   h2 {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 3rem;
+    color: $greyColor;
+    letter-spacing: 2px;
+    span {
+      color: $redColor;
+    }
   }
-  img {
-    height: 60px;
-    filter: invert(18%) sepia(39%) saturate(4404%) hue-rotate(345deg)
-      brightness(98%) contrast(129%);
+  p {
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 200;
   }
 }
 
@@ -21,8 +28,8 @@
     h2 {
       font-size: 1.8rem;
     }
-    img {
-      height: 40px;
+    p {
+      font-size: 1rem;
     }
   }
 }
