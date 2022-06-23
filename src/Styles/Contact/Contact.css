@@ -88,4 +88,28 @@
 }
 .mobile img {
   width: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contactContent {
+    width: 90%;
+    margin: 70px 0;
+  }
+
+  .contactContentHeader h2 {
+    font-size: 30px;
+    border-bottom: none;
+    text-shadow: 1px 1px 3px rgba(66, 68, 90, 0.83);
+    letter-spacing: 4px;
+  }
+}
+@media only screen and (max-width: 440px) {
+  .contactContentSections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 15px auto;
+  }
 }/*# sourceMappingURL=Contact.css.map */

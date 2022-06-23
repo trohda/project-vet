@@ -1,5 +1,5 @@
 import "../../Styles/Header/Header.css";
-import logo from "../../Img/Logo/Logo7.png";
+import logo from "../../Img/Logo/Logo8.png";
 import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
