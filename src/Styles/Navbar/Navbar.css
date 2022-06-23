@@ -6,7 +6,7 @@
   font-weight: 300;
   margin: 30px;
   padding-top: 5px;
-  border-top: 1px solid rgb(175, 2, 2);
+  border-top: 1px solid #af0202;
 }
 
 .navToggler {
@@ -105,22 +105,22 @@
   }
 
   .navMobileMenu a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .homeLink {
-    top: 50px;
-    right: 64px;
+    top: 70px;
+    right: 30px;
   }
 
   .aboutLink {
-    top: 75px;
-    right: 64px;
+    top: 95px;
+    right: 30px;
   }
 
   .contactLink {
-    top: 100px;
-    right: 64px;
+    top: 120px;
+    right: 30px;
   }
 }
 .toggle .line1 {
