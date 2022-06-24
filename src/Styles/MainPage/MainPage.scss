@@ -1,12 +1,21 @@
 @import "../../Variables/Variables.scss";
 
 .mainPage {
-  height: 100%;
+  background-image: url(../../Img/Pics/littleCats.png);
+  background-size: cover;
+  background-position: top;
+  width: 800px;
+  height: 400px;
+  margin: 40px;
+  -webkit-box-shadow: 48px 22px 49px -8px rgba(109, 109, 111, 1);
+  -moz-box-shadow: 48px 22px 49px -8px rgba(109, 109, 111, 1);
+  box-shadow: 48px 22px 49px -8px rgba(109, 109, 111, 1);
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 0 50px;
+  align-items: flex-start;
+  padding: 30px 50px;
 
   h1 {
     color: $redColor;
@@ -14,8 +23,12 @@
   }
   p {
     font-weight: 200;
+    font-size: 1.8rem;
+    color: black;
+    margin: 5px;
+  }
+  p:nth-child(2) {
     font-size: 3rem;
-    color: $greyColor;
   }
 }
 
