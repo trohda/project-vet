@@ -41,8 +41,8 @@ const Footer = () => {
         <img className="OpenIcon" src={Open} alt="Open Icon" />
         <div>
           <h3>Godziny Otwarcia:</h3>
-          <p>Pn-Pt: 10:00-18:00</p>
-          <p>Sb - 10:00-15:00</p>
+          <p>Pn-Pt: 11:00-20:00</p>
+          <p>Sb - 10:00-14:00</p>
         </div>
       </div>
     </footer>
