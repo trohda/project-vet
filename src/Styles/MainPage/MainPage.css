@@ -2,7 +2,7 @@
   background-image: url(../../Img/Pics/littleCats.png);
   background-size: cover;
   background-position: top;
-  width: 800px;
+  width: 700px;
   height: 400px;
   margin: 40px;
   box-shadow: 48px 22px 49px -8px rgb(109, 109, 111);
@@ -27,11 +27,39 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .mainPage {
+    width: 400px;
+    height: 220px;
+  }
   .mainPage h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .mainPage p {
     margin: 10px;
-    font-size: 2rem;
+    font-size: 1.2rem;
+  }
+  .mainPage p:nth-child(2) {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .mainPage {
+    width: 310px;
+    margin: 28px auto;
+    padding: 10px 5px;
+    justify-content: center;
+  }
+  .mainPage h1 {
+    font-size: 0.8rem;
+    padding-left: 10px;
+  }
+  .mainPage p {
+    margin: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+  .mainPage p:nth-child(2) {
+    font-size: 1.4rem;
+    padding-left: 10px;
   }
 }/*# sourceMappingURL=MainPage.css.map */
