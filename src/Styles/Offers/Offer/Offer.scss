@@ -1,13 +1,33 @@
 @import "../../../Variables/Variables.scss";
 
 .offerWrapper {
+  box-sizing: border-box;
   width: 310px;
   height: 450px;
   margin: 30px 15px;
+  padding: 20px;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   -webkit-box-shadow: 20px 14px 25px -10px rgba(109, 109, 111, 1);
   -moz-box-shadow: 20px 14px 25px -10px rgba(109, 109, 111, 1);
   box-shadow: 20px 14px 25px -10px rgba(109, 109, 111, 1);
+
+  img {
+    margin: 20px auto;
+    width: 40%;
+  }
+  h3 {
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    color: $redColor;
+  }
+  p {
+    text-indent: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
 }

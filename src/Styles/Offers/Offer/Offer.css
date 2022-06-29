@@ -1,9 +1,28 @@
 .offerWrapper {
+  box-sizing: border-box;
   width: 310px;
   height: 450px;
   margin: 30px 15px;
+  padding: 20px;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   box-shadow: 20px 14px 25px -10px rgb(109, 109, 111);
+}
+.offerWrapper img {
+  margin: 20px auto;
+  width: 40%;
+}
+.offerWrapper h3 {
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  color: rgb(175, 2, 2);
+}
+.offerWrapper p {
+  text-indent: 15px;
+  font-weight: 300;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=Offer.css.map */
