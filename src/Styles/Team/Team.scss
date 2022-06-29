@@ -1,6 +1,8 @@
 @import "../../Variables/Variables.scss";
 
 .teamWrapper {
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {

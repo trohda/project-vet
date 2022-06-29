@@ -1,1 +1,4 @@
-/*# sourceMappingURL=Team.css.map */
+.teamWrapper {
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=Team.css.map */

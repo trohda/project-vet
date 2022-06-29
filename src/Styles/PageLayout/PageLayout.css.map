@@ -1,1 +1,1 @@
-{"version":3,"sources":["PageLayout.scss","../../Variables/Variables.scss","PageLayout.css"],"names":[],"mappings":"AAEA;EACE,WAAA;EACA,oCCCoB;EDCpB,iBAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;EACA,iCCDS;ACDX","file":"PageLayout.css"}
+{"version":3,"sources":["PageLayout.scss","../../Variables/Variables.scss","PageLayout.css"],"names":[],"mappings":"AAEA;EACE,WAAA;EACA,oCCCoB;EDCpB,aAAA;EACA,sBAAA;EACA,8BAAA;EACA,iCAAA;AEFF","file":"PageLayout.css"}

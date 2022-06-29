@@ -12,12 +12,11 @@ const MainPage = () => {
         <p>Doświadczenie w połączeniu z empatią i miłością do zwierząt.</p>
       </div>
       <div className="mainPageContent">
-        <p>Witamy i zapraszamy do gabinetu.</p>
+        <h4>Witamy i zapraszamy do gabinetu.</h4>
         <p>Od poniedziałku do piątku: 11:00 - 20:00</p>
         <p>Sobota: 10:00 - 14:00 </p>
-
-        <img src={lab} alt="Labrador" />
       </div>
+      <img src={lab} alt="Labrador" />
     </main>
   );
 };

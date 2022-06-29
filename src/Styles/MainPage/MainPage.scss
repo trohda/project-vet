@@ -3,10 +3,18 @@
 .mainPageWrapper {
   display: flex;
   flex-direction: column;
+  img {
+    width: 130px;
+    position: sticky;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+  }
 }
 
 .mainPageHeader {
   padding: 30px;
+  z-index: 10;
   h1 {
     font-weight: 300;
     font-size: 3rem;
@@ -38,9 +46,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-  padding: 30px 50px;
+  align-items: center;
+  padding: 50px 50px 30px 50px;
   align-self: flex-end;
+  z-index: 10;
 
   p {
     font-weight: 200;
@@ -48,16 +57,10 @@
     color: black;
     margin: 5px;
   }
-  p:first-child {
+  h4 {
+    font-size: 2.2rem;
     font-weight: 300;
-    line-height: 4rem;
-  }
-
-  img {
-    width: 130px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
+    margin: 15px 0;
   }
 }
 
@@ -65,6 +68,7 @@
   .mainPageContent {
     width: 400px;
     height: 220px;
+    padding-top: 20px;
 
     h1 {
       font-size: 1rem;
@@ -75,6 +79,14 @@
 
     img {
       width: 100px;
+    }
+  }
+}
+
+@media only screen and( max-width:768px) {
+  .mainPageWrapper {
+    img {
+      display: none;
     }
   }
 }
@@ -93,12 +105,14 @@
     margin: 20px auto;
     padding: 10px 5px;
 
-    h1 {
-      font-size: 0.8rem;
-      padding-left: 10px;
-    }
     p {
       font-size: 1rem;
+    }
+    h4 {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 300;
+      margin: 15px 0;
     }
 
     img {

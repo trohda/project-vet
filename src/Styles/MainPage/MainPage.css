@@ -2,9 +2,18 @@
   display: flex;
   flex-direction: column;
 }
+.mainPageWrapper img {
+  width: 130px;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
 
 .mainPageHeader {
   padding: 30px;
+  z-index: 10;
 }
 .mainPageHeader h1 {
   font-weight: 300;
@@ -33,9 +42,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-  padding: 30px 50px;
+  align-items: center;
+  padding: 50px 50px 30px 50px;
   align-self: flex-end;
+  z-index: 10;
 }
 .mainPageContent p {
   font-weight: 200;
@@ -43,21 +53,17 @@
   color: black;
   margin: 5px;
 }
-.mainPageContent p:first-child {
+.mainPageContent h4 {
+  font-size: 2.2rem;
   font-weight: 300;
-  line-height: 4rem;
-}
-.mainPageContent img {
-  width: 130px;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
+  margin: 15px 0;
 }
 
 @media only screen and (max-width: 900px) {
   .mainPageContent {
     width: 400px;
     height: 220px;
+    padding-top: 20px;
   }
   .mainPageContent h1 {
     font-size: 1rem;
@@ -67,6 +73,11 @@
   }
   .mainPageContent img {
     width: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mainPageWrapper img {
+    display: none;
   }
 }
 @media only screen and (max-width: 580px) {
@@ -82,12 +93,14 @@
     margin: 20px auto;
     padding: 10px 5px;
   }
-  .mainPageContent h1 {
-    font-size: 0.8rem;
-    padding-left: 10px;
-  }
   .mainPageContent p {
     font-size: 1rem;
+  }
+  .mainPageContent h4 {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 15px 0;
   }
   .mainPageContent img {
     width: 70px;
