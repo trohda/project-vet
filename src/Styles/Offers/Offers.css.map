@@ -1,10 +1,1 @@
-{
-  "version": 3,
-  "sources": [
-    "Offer.scss",
-    "Offer.css"
-  ],
-  "names": [],
-  "mappings": "AAEA;EACE,WAAA;EACA,iBAAA;ACDF",
-  "file": "Offer.css"
-}
+{"version":3,"sources":["Offers.scss","Offers.css"],"names":[],"mappings":"AAEA;EACE,WAAA;EACA,iBAAA;ACDF;;ADIA;EACE,WAAA;EACA,aAAA;EACA,mBAAA;EACA,6BAAA;EACA,eAAA;ACDF","file":"Offers.css"}

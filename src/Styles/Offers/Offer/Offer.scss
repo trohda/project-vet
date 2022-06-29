@@ -1,0 +1,10 @@
+@import "../../../Variables/Variables.scss";
+
+.offerWrapper {
+  width: 310px;
+  height: 450px;
+  margin: 10px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,4 +1,12 @@
-.offer {
+.offersWrapper {
   width: 100%;
   min-height: 600px;
-}/*# sourceMappingURL=Offer.css.map */
+}
+
+.offers {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=Offers.css.map */
