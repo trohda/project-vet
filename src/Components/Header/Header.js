@@ -9,6 +9,9 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
       <Navbar />
+      {/* <button>
+        <p>Umów wizytę</p>
+      </button> */}
     </header>
   );
 };

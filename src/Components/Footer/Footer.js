@@ -15,10 +15,7 @@ const Footer = () => {
           rel="noreferrer"
         >
           <img className="FBIcon" src={FB} alt="Facebook icon" />
-          <div>
-            <p>facebook.com/</p>
-            <p>WeterynarzPrzymorze</p>
-          </div>
+          <div></div>
         </a>
       </div>
       <div className="googleMaps">
