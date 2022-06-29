@@ -1,4 +1,5 @@
-.mainPage {
+.mainPageContent {
+  position: relative;
   background-image: url(../../Img/Pics/littleCats.png);
   background-size: cover;
   background-position: top;
@@ -8,58 +9,70 @@
   box-shadow: 48px 22px 49px -8px rgb(109, 109, 111);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-end;
   padding: 30px 50px;
 }
-.mainPage h1 {
+.mainPageContent h1 {
   color: rgb(175, 2, 2);
   font-weight: 300;
 }
-.mainPage p {
+.mainPageContent p {
   font-weight: 200;
   font-size: 1.8rem;
   color: black;
   margin: 5px;
 }
-.mainPage p:nth-child(2) {
+.mainPageContent p:nth-child(2) {
   font-size: 3rem;
+}
+.mainPageContent img {
+  width: 130px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 
 @media only screen and (max-width: 900px) {
-  .mainPage {
+  .mainPageContent {
     width: 400px;
     height: 220px;
   }
-  .mainPage h1 {
+  .mainPageContent h1 {
     font-size: 1rem;
   }
-  .mainPage p {
+  .mainPageContent p {
     margin: 10px;
     font-size: 1.2rem;
   }
-  .mainPage p:nth-child(2) {
+  .mainPageContent p:nth-child(2) {
     font-size: 1.6rem;
+  }
+  .mainPageContent img {
+    width: 100px;
   }
 }
 @media only screen and (max-width: 580px) {
-  .mainPage {
+  .mainPageContent {
     width: 310px;
     margin: 28px auto;
     padding: 10px 5px;
     justify-content: center;
   }
-  .mainPage h1 {
+  .mainPageContent h1 {
     font-size: 0.8rem;
     padding-left: 10px;
   }
-  .mainPage p {
+  .mainPageContent p {
     margin: 10px;
     font-size: 1rem;
     padding-left: 10px;
   }
-  .mainPage p:nth-child(2) {
+  .mainPageContent p:nth-child(2) {
     font-size: 1.4rem;
     padding-left: 10px;
+  }
+  .mainPageContent img {
+    width: 70px;
   }
 }/*# sourceMappingURL=MainPage.css.map */

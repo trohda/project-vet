@@ -1,6 +1,7 @@
 @import "../../Variables/Variables.scss";
 
-.mainPage {
+.mainPageContent {
+  position: relative;
   background-image: url(../../Img/Pics/littleCats.png);
   background-size: cover;
   background-position: top;
@@ -13,8 +14,8 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-end;
   padding: 30px 50px;
 
   h1 {
@@ -30,12 +31,19 @@
   p:nth-child(2) {
     font-size: 3rem;
   }
+  img {
+    width: 130px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
 }
 
 @media only screen and( max-width:900px) {
-  .mainPage {
+  .mainPageContent {
     width: 400px;
     height: 220px;
+
     h1 {
       font-size: 1rem;
     }
@@ -46,11 +54,14 @@
     p:nth-child(2) {
       font-size: 1.6rem;
     }
+    img {
+      width: 100px;
+    }
   }
 }
 
 @media only screen and (max-width: 580px) {
-  .mainPage {
+  .mainPageContent {
     width: 310px;
     margin: 28px auto;
     padding: 10px 5px;
@@ -67,6 +78,9 @@
     p:nth-child(2) {
       font-size: 1.4rem;
       padding-left: 10px;
+    }
+    img {
+      width: 70px;
     }
   }
 }
