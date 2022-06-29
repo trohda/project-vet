@@ -61,14 +61,24 @@ const Navbar = () => {
           Strona główna
         </NavLink>
         <NavLink
-          to="/aboutus"
+          to="/offers"
           className={(info) =>
             info.isActive
-              ? `aboutLink ${mobileMenuActive} mobileLinkActive`
-              : `aboutLink ${mobileMenuActive}`
+              ? `offersLink ${mobileMenuActive} mobileLinkActive`
+              : `offersLink ${mobileMenuActive}`
           }
         >
-          O Nas
+          Oferta
+        </NavLink>
+        <NavLink
+          to="/team"
+          className={(info) =>
+            info.isActive
+              ? `teamLink ${mobileMenuActive} mobileLinkActive`
+              : `teamLink ${mobileMenuActive}`
+          }
+        >
+          Zespół
         </NavLink>
         <NavLink
           to="/contact"

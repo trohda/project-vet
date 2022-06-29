@@ -39,7 +39,7 @@ header button p {
 }
 @media only screen and (max-width: 440px) {
   header {
-    padding: 24px 18px;
+    padding-left: 15px;
   }
   header img {
     width: 190px;
