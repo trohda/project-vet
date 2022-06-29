@@ -3,8 +3,11 @@
 .offerWrapper {
   width: 310px;
   height: 450px;
-  margin: 10px;
+  margin: 30px 15px;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
+  -webkit-box-shadow: 20px 14px 25px -10px rgba(109, 109, 111, 1);
+  -moz-box-shadow: 20px 14px 25px -10px rgba(109, 109, 111, 1);
+  box-shadow: 20px 14px 25px -10px rgba(109, 109, 111, 1);
 }
