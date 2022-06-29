@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sources": [
+    "Offer.scss",
+    "Offer.css"
+  ],
+  "names": [],
+  "mappings": "AAEA;EACE,WAAA;EACA,iBAAA;ACDF",
+  "file": "Offer.css"
+}

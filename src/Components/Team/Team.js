@@ -1,6 +1,6 @@
-import "../../Styles/AboutUs/AboutUs.css";
+import "../../Styles/Team/Team.css";
 
-const AboutUs = () => {
+const Team = () => {
   return (
     <section className="aboutUsWrapper">
       <h2>
@@ -12,4 +12,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Team;

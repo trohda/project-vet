@@ -25,10 +25,16 @@ const Navbar = () => {
           Strona główna
         </NavLink>
         <NavLink
-          to="/aboutus"
+          to="/offers"
           className={(info) => (info.isActive ? "navLinkActive" : "navLink")}
         >
-          O Nas
+          Oferta
+        </NavLink>
+        <NavLink
+          to="/team"
+          className={(info) => (info.isActive ? "navLinkActive" : "navLink")}
+        >
+          Zespół
         </NavLink>
         <NavLink
           to="/contact"
