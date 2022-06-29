@@ -15,11 +15,13 @@
     font-weight: 300;
     text-decoration: none;
   }
-
+  .telIcon {
+    height: px;
+  }
   .GMIcon {
     height: 60px;
   }
-
+  .telephoneLink,
   .googleMapsLink,
   .faceBookLink,
   .openTime {
@@ -47,11 +49,22 @@
 @media only screen and(max-width: 768px) {
   .footer {
     padding: 18px;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    gap: 20px;
+
+    .telephoneLinkContent,
+    .adresLinkContent {
+      margin-left: 8px;
+    }
+
     .GMIcon,
-    .FBIcon,
-    .OpenIcon {
+    .OpenIcon,
+    .telIcon {
       height: 30px;
+    }
+
+    .FBIcon {
+      height: 50px;
     }
 
     h3 {
@@ -63,15 +76,17 @@
     }
     .faceBook,
     .googleMaps,
-    .openTime {
+    .openTime,
+    .telephone {
       width: 180px;
     }
     .openTime h3 {
       width: 70px;
     }
-  }
-  .footer div:nth-last-child(2) {
-    border-top: 1px solid rgb(201, 201, 201);
-    border-bottom: 1px solid rgb(201, 201, 201);
+    .faceBook {
+      display: grid;
+      place-items: center;
+      margin-right: 25px;
+    }
   }
 }

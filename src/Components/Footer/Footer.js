@@ -3,6 +3,7 @@ import "../../Styles/Footer/Footer.css";
 import GM from "../../Img/Icons/GM.svg";
 import FB from "../../Img/Icons/FB.svg";
 import Open from "../../Img/Icons/Open.svg";
+import telIcon from "../../Img/Icons/telIcon.svg";
 
 const Footer = () => {
   return (
@@ -15,7 +16,23 @@ const Footer = () => {
           rel="noreferrer"
         >
           <img className="FBIcon" src={FB} alt="Facebook icon" />
-          <div></div>
+        </a>
+      </div>
+      <div className="telephone">
+        <a
+          className="telephoneLink"
+          href="tel:601-707-444"
+          target="blank"
+          rel="noreferrer"
+        >
+          <div>
+            <img className="telIcon" src={telIcon} alt="Mobile icon" />
+          </div>
+
+          <div className="telephoneLinkContent">
+            <h3>Telefon:</h3>
+            <p> +48 601-707-444</p>
+          </div>
         </a>
       </div>
       <div className="googleMaps">
@@ -25,9 +42,10 @@ const Footer = () => {
           target="blank"
           rel="noreferrer"
         >
-          <img className="GMIcon" src={GM} alt="Google Maps Icon" />
-
           <div>
+            <img className="GMIcon" src={GM} alt="Google Maps Icon" />
+          </div>
+          <div className="adresLinkContent">
             <h3>Adres:</h3>
             <p>Obrońców Wybrzeża 11/2</p>
             <p>80-398 Gdańsk</p>

@@ -13,9 +13,13 @@
   font-weight: 300;
   text-decoration: none;
 }
+.footer .telIcon {
+  height: px;
+}
 .footer .GMIcon {
   height: 60px;
 }
+.footer .telephoneLink,
 .footer .googleMapsLink,
 .footer .faceBookLink,
 .footer .openTime {
@@ -41,12 +45,20 @@
 @media only screen and (max-width: 768px) {
   .footer {
     padding: 18px;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer .telephoneLinkContent,
+.footer .adresLinkContent {
+    margin-left: 8px;
   }
   .footer .GMIcon,
-.footer .FBIcon,
-.footer .OpenIcon {
+.footer .OpenIcon,
+.footer .telIcon {
     height: 30px;
+  }
+  .footer .FBIcon {
+    height: 50px;
   }
   .footer h3 {
     font-size: 15px;
@@ -56,15 +68,16 @@
   }
   .footer .faceBook,
 .footer .googleMaps,
-.footer .openTime {
+.footer .openTime,
+.footer .telephone {
     width: 180px;
   }
   .footer .openTime h3 {
     width: 70px;
   }
-
-  .footer div:nth-last-child(2) {
-    border-top: 1px solid rgb(201, 201, 201);
-    border-bottom: 1px solid rgb(201, 201, 201);
+  .footer .faceBook {
+    display: grid;
+    place-items: center;
+    margin-right: 25px;
   }
 }/*# sourceMappingURL=Footer.css.map */
