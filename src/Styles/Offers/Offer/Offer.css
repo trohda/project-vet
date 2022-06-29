@@ -1,10 +1,10 @@
 .offerWrapper {
+  background-color: rgb(232, 232, 232);
   box-sizing: border-box;
   width: 310px;
   height: 450px;
   margin: 30px 15px;
   padding: 20px;
-  border: 1px solid grey;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -20,6 +20,7 @@
   letter-spacing: 3px;
   font-size: 2rem;
   color: rgb(175, 2, 2);
+  text-shadow: 2px 2px 10px rgb(202, 202, 202);
 }
 .offerWrapper p {
   text-indent: 15px;

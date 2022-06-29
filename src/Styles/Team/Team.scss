@@ -1,35 +1,7 @@
 @import "../../Variables/Variables.scss";
 
-.aboutUsWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 45px;
-
-  h2 {
-    font-weight: 300;
-    font-size: 3rem;
-    color: $greyColor;
-    letter-spacing: 2px;
-    span {
-      color: $redColor;
-    }
-  }
-  p {
-    letter-spacing: 1px;
-    font-size: 2rem;
-    font-weight: 200;
-  }
+.teamWrapper {
 }
 
 @media only screen and (max-width: 600px) {
-  .aboutUsWrapper {
-    h2 {
-      font-size: 1.8rem;
-    }
-    p {
-      font-size: 1rem;
-    }
-  }
 }
