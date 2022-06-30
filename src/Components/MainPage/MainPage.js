@@ -7,7 +7,7 @@ const MainPage = () => {
       <div className="mainPageHeader">
         <h1>
           Przychodnia Weterynaryjna <br /> <span> PRZYMORZE</span> <br />{" "}
-          Katarzyna Grodź.
+          Katarzyna Grodź
         </h1>
         <p>Doświadczenie w połączeniu z empatią i miłością do zwierząt.</p>
       </div>

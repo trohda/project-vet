@@ -1,13 +1,13 @@
 import "../../Styles/Offers/Offers.css";
 import Offer from "./Offer/Offer";
-import blood from "../../Img/Icons/Offers/blood.svg";
-import cardio from "../../Img/Icons/Offers/cardio.svg";
-import cure from "../../Img/Icons/Offers/cure.svg";
-import examination from "../../Img/Icons/Offers/examination.svg";
-import nurse from "../../Img/Icons/Offers/nurse.svg";
-import surgery from "../../Img/Icons/Offers/surgery.svg";
-import tooth from "../../Img/Icons/Offers/tooth.svg";
-import vaccine from "../../Img/Icons/Offers/vaccine.svg";
+import profilaktyka from "../../Img/Icons/Offers/profilaktyka.svg";
+import DCW from "../../Img/Icons/Offers/DCW.svg";
+import dermatologia from "../../Img/Icons/Offers/dermatologia.svg";
+import chirurgia from "../../Img/Icons/Offers/chirurgia.svg";
+import RtgUsg from "../../Img/Icons/Offers/RtgUsg.svg";
+import stomatologia from "../../Img/Icons/Offers/stomatologia.svg";
+import okulistyka from "../../Img/Icons/Offers/okulistyka.svg";
+import administracja from "../../Img/Icons/Offers/administracja.svg";
 
 const Offers = () => {
   return (
@@ -15,65 +15,65 @@ const Offers = () => {
       <h2>Nasza Oferta:</h2>
       <div className="offers">
         <Offer
-          img={blood}
-          alt={blood}
-          header={"Oferta 1"}
+          img={profilaktyka}
+          alt={profilaktyka}
+          header={"Profilaktyka"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={cardio}
-          alt={cardio}
-          header={"Oferta 2"}
+          img={DCW}
+          alt={DCW}
+          header={"Diagnostyka i leczenie chorób wewnętrznych"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={cure}
-          alt={cure}
-          header={"Oferta 3"}
+          img={dermatologia}
+          alt={dermatologia}
+          header={"Dermatologia"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={examination}
-          alt={examination}
-          header={"Oferta 4"}
+          img={chirurgia}
+          alt={chirurgia}
+          header={"Chirurgia"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={nurse}
-          alt={nurse}
-          header={"Oferta 5"}
+          img={RtgUsg}
+          alt={RtgUsg}
+          header={"Rtg , Usg"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={surgery}
-          alt={surgery}
-          header={"Oferta 6"}
+          img={stomatologia}
+          alt={stomatologia}
+          header={"Stomatologia"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={tooth}
-          alt={tooth}
-          header={"Oferta 7"}
+          img={okulistyka}
+          alt={okulistyka}
+          header={"Okulistyka"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
         />
         <Offer
-          img={vaccine}
-          alt={vaccine}
-          header={"Oferta 8"}
+          img={administracja}
+          alt={administracja}
+          header={"Administracja"}
           paragraph={
             "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
           }
