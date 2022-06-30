@@ -1,20 +1,18 @@
 @import "../../Variables/Variables.scss";
 
 .mainPageWrapper {
+  position: relative;
   display: flex;
   flex-direction: column;
-  img {
-    width: 130px;
-    position: sticky;
-    left: 0px;
-    bottom: 0px;
-    z-index: 1;
-  }
+  background-image: url(../../Img/Pics/mainPageBackgroundDog.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 .mainPageHeader {
-  padding: 30px;
+  padding: 40px;
   z-index: 10;
+
   h1 {
     font-weight: 300;
     font-size: 3rem;
@@ -24,37 +22,25 @@
       color: $redColor;
     }
   }
-  p {
-    letter-spacing: 1px;
-    font-size: 2rem;
-    font-weight: 200;
-  }
 }
 
 .mainPageContent {
-  position: relative;
-  background-image: url(../../Img/Pics/littleCats.png);
-  background-size: cover;
-  background-position: top;
-  width: 700px;
-  height: 350px;
+  width: 600px;
+  height: 200px;
   margin: 40px;
-  -webkit-box-shadow: 48px 22px 49px -8px rgba(109, 109, 111, 1);
-  -moz-box-shadow: 48px 22px 49px -8px rgba(109, 109, 111, 1);
-  box-shadow: 48px 22px 49px -8px rgba(109, 109, 111, 1);
-
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 50px 50px 30px 50px;
-  align-self: flex-end;
+  padding: 20px;
+  align-self: flex-start;
   z-index: 10;
 
   p {
     font-weight: 200;
-    font-size: 2rem;
-    color: black;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
     margin: 5px;
   }
   h4 {
@@ -64,6 +50,18 @@
   }
 }
 
+.mainPageFooter {
+  margin-top: 180px;
+  padding: 20px;
+  align-self: flex-end;
+  p {
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: 300;
+    text-shadow: 6px 3px 12px rgb(255, 255, 255);
+  }
+}
 @media only screen and( max-width:900px) {
   .mainPageContent {
     width: 400px;
@@ -73,12 +71,14 @@
     h1 {
       font-size: 1rem;
     }
-    p {
-      font-size: 1.2rem;
-    }
 
     img {
       width: 100px;
+    }
+  }
+  .mainPageFooter {
+    p {
+      font-size: 1.2rem;
     }
   }
 }

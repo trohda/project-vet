@@ -9,14 +9,16 @@ const MainPage = () => {
           Przychodnia Weterynaryjna <br /> <span> PRZYMORZE</span> <br />{" "}
           Katarzyna Grodź
         </h1>
-        <p>Doświadczenie w połączeniu z empatią i miłością do zwierząt.</p>
       </div>
       <div className="mainPageContent">
         <h4>Witamy i zapraszamy do gabinetu.</h4>
         <p>Od poniedziałku do piątku: 11:00 - 20:00</p>
         <p>Sobota: 10:00 - 14:00 </p>
       </div>
-      <img src={lab} alt="Labrador" />
+      {/* <img src={lab} alt="Labrador" /> */}
+      <div className="mainPageFooter">
+        <p>Doświadczenie w połączeniu z empatią i miłością do zwierząt.</p>
+      </div>
     </main>
   );
 };
