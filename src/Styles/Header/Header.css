@@ -3,7 +3,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 40px 0px 40px;
+  padding: 30px 40px 10px 40px;
   box-sizing: border-box;
   position: -webkit-sticky;
   position: sticky;
@@ -30,6 +30,15 @@ header button p {
   font-family: "Roboto", sans-serif;
 }
 
+.headerMainPage {
+  background-color: rgb(224, 229, 235);
+  background-image: linear-gradient(90deg, rgb(224, 229, 235) 0%, rgb(231, 236, 240) 31%, rgb(231, 236, 240) 71%, rgb(220, 227, 233) 100%);
+}
+
+.headerOffers {
+  background-color: rgb(224, 229, 235);
+}
+
 @media only screen and (max-width: 900px) {
   header img {
     width: 280px;
@@ -47,6 +56,4 @@ header button p {
   header img {
     width: 190px;
   }
-}
-@-webkit-keyframes flow {}
-@keyframes flow {}/*# sourceMappingURL=Header.css.map */
+}/*# sourceMappingURL=Header.css.map */

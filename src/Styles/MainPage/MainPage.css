@@ -48,13 +48,14 @@
 
 .mainPageFooter {
   margin-top: 180px;
-  padding: 20px;
+  padding-top: 20px;
   align-self: flex-end;
 }
 .mainPageFooter p {
   letter-spacing: 1px;
   color: rgb(0, 0, 0);
-  font-size: 2rem;
+  font-size: 1.8rem;
+  font-style: italic;
   font-weight: 300;
   text-shadow: 6px 3px 12px rgb(255, 255, 255);
 }
@@ -71,7 +72,6 @@
   .mainPageContent img {
     width: 100px;
   }
-
   .mainPageFooter p {
     font-size: 1.2rem;
   }
@@ -88,7 +88,6 @@
   .mainPageHeader p {
     font-size: 1rem;
   }
-
   .mainPageContent {
     width: 310px;
     margin: 20px auto;

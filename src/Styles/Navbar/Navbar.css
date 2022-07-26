@@ -126,11 +126,9 @@
   .navMenu a {
     display: none;
   }
-
   .navToggler {
     display: flex;
   }
-
   .navMobileMenu {
     display: block;
   }
@@ -143,30 +141,24 @@
     top: 18px;
     right: 18px;
   }
-
   .navToggler div {
     width: 15px;
   }
-
   .navMobileMenu a {
     font-size: 16px;
   }
-
   .homeLink {
     top: 15px;
     right: 65px;
   }
-
   .offersLink {
     top: 38px;
     right: 65px;
   }
-
   .teamLink {
     top: 61px;
     right: 65px;
   }
-
   .contactLink {
     top: 84px;
     right: 65px;

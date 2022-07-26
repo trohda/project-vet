@@ -18,65 +18,44 @@ const Offers = () => {
           img={profilaktyka}
           alt={profilaktyka}
           header={"Profilaktyka"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
         <Offer
           img={DCW}
           alt={DCW}
           header={"Diagnostyka i leczenie chorób wewnętrznych"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
         <Offer
           img={dermatologia}
           alt={dermatologia}
           header={"Dermatologia"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
         <Offer
           img={chirurgia}
           alt={chirurgia}
           header={"Chirurgia"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
-        <Offer
-          img={RtgUsg}
-          alt={RtgUsg}
-          header={"Rtg , Usg"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
-        />
+        <Offer img={RtgUsg} alt={RtgUsg} header={"Rtg , Usg"} paragraph={""} />
         <Offer
           img={stomatologia}
           alt={stomatologia}
           header={"Stomatologia"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
         <Offer
           img={okulistyka}
           alt={okulistyka}
           header={"Okulistyka"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
         <Offer
           img={administracja}
           alt={administracja}
           header={"Administracja"}
-          paragraph={
-            "Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. ipisci nulla cupiditate. elit. Labore saepe ex voluptates eligendi officia sint n."
-          }
+          paragraph={""}
         />
       </div>
     </section>

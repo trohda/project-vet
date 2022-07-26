@@ -5,7 +5,6 @@ const Team = () => {
   return (
     <section className="teamWrapper">
       <TeamMember />
-      <TeamMember />
     </section>
   );
 };
