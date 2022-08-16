@@ -12,7 +12,19 @@ import administracja from "../../Img/Icons/Offers/administracja.svg";
 const Offers = () => {
   return (
     <section className="offersWrapper">
-      <h2>Nasza Oferta:</h2>
+      <div className="offersHeader">
+        <span className="offerHeaderH2">
+          <h2>Nasze Specjalizacje</h2>
+        </span>
+        <span className="offersHeaderParagraph">
+          <p>
+            Naszą misją jest zapewnienie najlepszej opieki pacjentom. Chcemy
+            wykorzystać swoją wiedzę, wykształcenie i umiejętności aby usługi
+            jakie świadczymy były na najwyższym poziomie.
+          </p>
+        </span>
+      </div>
+
       <div className="offers">
         <Offer
           img={profilaktyka}

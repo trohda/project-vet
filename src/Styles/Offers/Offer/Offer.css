@@ -1,6 +1,8 @@
 .offerWrapper {
-  background-color: rgb(232, 232, 232);
+  transform-style: preserve-3d;
+  background-color: rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
+  border-radius: 18px;
   width: 310px;
   height: 350px;
   margin: 30px 15px;
